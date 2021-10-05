@@ -1,0 +1,59 @@
+header{
+    background:black;
+}
+body{
+    background: green;
+}
+nav{
+    position: absolute;
+    top: 15%;
+    right: 10%;
+}
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+nav a {
+    text-transform: uppercase;
+    color: green;
+    font-weight: bold; /*texto em negrito*/
+    font-size: 35px;
+    text-decoration: none;  /*retira a linha link*/
+}
+nav a:hover/*estilo para o mouse*/
+{
+    color: rgb(171, 223, 75);
+}
+
+main{
+    width: 940px;
+    margin: 0 auto;
+}
+h1{
+    font-size: 30px;
+}
+form{
+    margin: 40px 0;
+}
+form label{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+form input{
+    display: block;
+    padding: 10px 25px;
+    margin: 0 0 10px;
+    width: 50%;
+}
+
+
+footer{
+    text-align: center;
+    background: black;
+}
+.textfooter{
+    color:rgb(56, 129, 8);
+    font-size: 30px;
+
+}

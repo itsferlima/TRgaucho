@@ -1,5 +1,5 @@
 body{
-    background: rgb(92, 116, 79);
+    background:green;
 }
 #banner{
     width: 100%;
@@ -22,8 +22,8 @@ p{
     background: greenyellow;
 }
 #missão{
-    background: greenyellow;
-
+    
+    border: 5px solid rgb rgb(86, 207, 86);
 }
 .itens{
     font-style: italic;

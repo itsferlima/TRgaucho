@@ -1,0 +1,72 @@
+header{
+    background:black;
+}
+body{
+    background: green;
+}
+nav{
+    position: absolute;
+    top: 15%;
+    right: 10%;
+}
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+nav a {
+    text-transform: uppercase;
+    color: green;
+    font-weight: bold; /*texto em negrito*/
+    font-size: 35px;
+    text-decoration: none;  /*retira a linha link*/
+}
+nav a:hover/*estilo para o mouse*/
+{
+    color: rgb(171, 223, 75);
+}
+.info{
+    text-align: center;
+    font-size: 35px;
+    color: black;
+    font-weight: bold;
+    margin: 5%;
+}
+.caminhao li {
+    display: inline-block;
+    width: 30%; /*tirar caso não ache uma foto decente*/
+    text-align: center;  
+    vertical-align: top;
+    margin: 0 1.5%; /*entre as colunas*/
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 10px ridge rgb(138, 219, 100); /*borda*/
+}
+
+.caminhao li:hover{ /*cursor passar na bordar*/
+    border-color:rgb(56, 129, 8);
+}
+.caminhao li:hover h1{
+    font-size: 35px;
+    font-weight: bold;
+
+}
+/* .caminhao{
+    margin: 0 auto;
+} */
+.caminhao h1{
+    font-size: 20px;
+    color: black;
+}
+p{
+    font-size: 22px;
+    color: rgb(0, 0, 0);
+}
+footer{
+    text-align: center;
+    background: black;
+}
+.textfooter{
+    color:rgb(56, 129, 8);
+    font-size: 30px;
+
+}
