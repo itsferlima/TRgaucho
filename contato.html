@@ -20,32 +20,47 @@
         </div>
     </header>
     <main>
-        <h1>Faça seu orçamento ou entre em contato conosco </h1>
+        <h1>Faça seu orçamento entrando em contato conosco </h1>
         <form>
             <label for="nome">Nome e sobrenome:</label>
-            <input type="text" id="nome">
+            <input type="text" id="nome" class="input-pad" required>
 
             <label for="email">E-mail:</label>
-            <input type="text" id="email">
+            <input type="email" id="email" class="input-pad" placeholder="xxxx@xxxx.com">
 
             <label for="phone">Telefone:</label>
-            <input type="number" id="phone">
+            <input type="tel" id="phone" class="input-pad" required placeholder="(XX) XXXXX-XXXX">
+
+            <label for="state">Estado:</label receber>
+            <select>
+                <option>Santa Catarina</option>
+                <option>Rio Grande do Sul</option>
+                <option>São Paulo</option>
+                <option>Paraná</option>
+                <option>Minas Gerais</option>
+            </select>
 
             <label for="menssagem">Mensagem:</label>
-            <textarea cols="68" rows="10"></textarea>
+            <textarea cols="68" rows="10" class="input-pad"></textarea>
             
-            <div>
-                <p>Como prefere o nosso contato?</p>
-                <label for="radio-email">E-mail</label>
-                <input type="radio" name="contato" value="email" id="radio-email">
+            <fieldset>
+                <legend>Como prefere o nosso contato?</legend>
+                <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">E-mail</label>
+                
+                <label for="radio-phone"><input type="radio" name="contato" value="phone" id="radio-phone">WhatsApp</label> 
+            </fieldset>
 
-                <label for="radio-phone">WhatsApp</label>
-                <input type="radio" name="contato" value="phone" id="radio-phone">
-            </div>
-
-            <label><input type="checkbox">Gostaria de receber nossas novidades por e-mail?</label>
+            <fieldset>
+                <legend>Qual horario prefere ser atendido?</legend>
+                <select>
+                    <option>Manhã</option>
+                    <option>Tarde</option>
+                    <option>Noite</option>
+                </select>
+            </fieldset>
             
-            <input type="submit" value="Enviar">
+            <label class="checkbox"><input type="checkbox">Gostaria de receber nossas novidades por e-mail?</label>
+            <input type="submit" value="Enviar" class="enviar">
         </form>
     </main>
 
