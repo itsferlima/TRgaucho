@@ -1,0 +1,40 @@
+header{
+    background: green;
+}
+body{
+    background: rgb(96, 180, 96);
+}
+
+nav{
+    position: absolute;
+    top: 15%;
+    right: 10%;
+}
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+nav a {
+    text-transform: uppercase;
+    color:rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;  /*retira a linha link*/
+}
+.caminhao li {
+    display: inline-block;
+    text-align: center;  
+    vertical-align: top;
+    padding: 50px 0 ;
+}
+.caminhao{
+    margin: 0 auto;
+}
+.caminhao h1{
+    font-size: 30px;
+    color: white;
+}
+p{
+    font-size: 22px;
+    color: white;
+}

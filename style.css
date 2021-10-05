@@ -1,0 +1,41 @@
+body{
+    background: rgb(92, 116, 79);
+}
+#banner{
+    width: 100%;
+
+}
+.titulo-principal{
+    font-size: large;
+    
+}
+.titulo{
+    text-align: center; 
+    border: black;
+    padding: 20px;
+}
+h3{
+    text-align: center;
+}
+p{
+    text-align: center;
+    background: greenyellow;
+}
+#missão{
+    background: greenyellow;
+
+}
+.itens{
+    font-style: italic;
+    font-size: large;
+}
+.modelos{
+    display: inline-block;
+}
+
+ul{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
