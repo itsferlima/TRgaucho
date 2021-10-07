@@ -1,36 +1,87 @@
+header{
+    background:black;
+}
 body{
-    background:green;
+    background: green;
 }
-#banner{
-    width: 100%;
+nav{
+    position: absolute;
+    top: 15%;
+    right: 5%;
+}
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+nav a {
+    text-transform: uppercase;
+    color: green;
+    font-weight: bold; /*texto em negrito*/
+    font-size: 35px;
+    text-decoration: none;  /*retira a linha link*/
+}
+nav a:hover/*estilo para o mouse*/
+{
+    color: rgb(171, 223, 75);
+}
 
+.banner{
+    width: 100%;  
 }
+/*---------------- cabeçalho----------*/
+
 .titulo-principal{
-    font-size: large;
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
+}
+.principal p{
+    margin: 0 0 1em;
+    border: 10px ridge rgb(171, 223, 75);
     
 }
-.titulo{
-    text-align: center; 
-    border: black;
-    padding: 20px;
+.sobre{
+    width: 400px;
+    float: left;
+    margin: 0 20px 20px 0;
 }
-h3{
+
+.mapa{
+    padding: 1em 0;
+}
+.mapa p{
+    margin: 0 0 1em;
     text-align: center;
+    font-size: 20px;
 }
-p{
-    text-align: center;
-    background: greenyellow;
-}
-#missão{
-    
-    border: 5px solid rgb rgb(86, 207, 86);
-}
+
+
 .itens{
-    font-style: italic;
-    font-size: large;
+    font-style: bold;
+    font-size: 20px;
+    line-height: 1.5; /*altura de linha*/
+    margin-left: 20%;
 }
 .modelos{
     display: inline-block;
+    width: 100%;
+    background:linear-gradient(green, black);
+    /* padding: 1em 0; */
+}
+.conteudo-modelo{
+    width: 640px;
+    margin: 0 auto;;
+}
+
+.lista-modelos{
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+}
+.imgmodelos{
+    width: 60%;
+
 }
 
 ul{
@@ -38,4 +89,25 @@ ul{
     vertical-align: top;
     width: 20%;
     margin-right: 15%;
+} 
+
+
+
+
+
+footer{
+    text-align: center;
+    background: black;
 }
+.textfooter{
+    color:rgb(56, 129, 8);
+    font-size: 30px;
+
+}
+
+
+#banner{
+    width: 100%;
+
+}
+
